@@ -69,9 +69,8 @@ getPost.addEventListener(`click`, function () {
           }
         );
       });
+    })
+    .catch((error) => {
+      console.log(error);
     });
-  console.log();
-  // .catch((error) => {
-  //   console.log(error);
-  // });
 });
